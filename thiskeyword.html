@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p2>This Keyword</p2>
+    <p id="demo"></p>
+    <script>
+
+// Create an object:
+            const person = {
+            firstName: "John",
+            lastName: "Doe",
+            id: 5566,
+            fullName : function() {
+            return this.lastName + " " + this.lastName;
+                }
+                };
+            //display data from the object
+            document.getElementById("demo").innerHTML = person.fullName();
+    </script>
+</body>
+
+</html>

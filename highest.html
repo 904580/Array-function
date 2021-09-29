@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Find the highest value <span id ="demo"></span></p>
+        <script>
+            const number =  [12, 34,100,765,2,90];
+            number.sort(function (a,b) {return a-b});
+            document.getElementById("demo").innerHTML = number[number.length-1];
+        </script>
+        </body>
+        </html>
+        

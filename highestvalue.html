@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Sort</h2>
+<p>The lowest number is <span id="demo"></span>.</p>
+
+<script>
+const number = [40, 100, 1, 5, 25, 10];
+number.sort(function(a, b){return a-b});
+document.getElementById("demo").innerHTML = number[number.length-1];
+</script>
+
+</body>
+</html>

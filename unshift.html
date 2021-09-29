@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> Unshift method</h2>
+        <button onclick = "myFunction()">Try it!</button>
+        <p id = "demo"></p>
+    <script>
+        const fruits = ["Mangoo", "banana", "graphes"];
+        document.getElementById("demo").innerHTML= fruits;
+       function myFunction()
+       {
+        fruits.unshift("pineapple");
+        document.getElementById("demo").innerHTML= fruits;
+       }
+       </script>
+       </body>
+       </html>
